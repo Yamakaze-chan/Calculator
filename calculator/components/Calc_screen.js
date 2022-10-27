@@ -158,15 +158,6 @@ export default class May_tinh extends React.Component {
       );
       
     }
-    ops.push(
-      <TouchableOpacity
-        style={styles.btn}
-        onPress={() => this.props.navigation.navigate('History')}
-        >
-        <Text style={[styles.btntext, styles.white]}>{'F'}</Text>
-        
-      </TouchableOpacity>
-    );
     return (
         <View style={styles.container}>
         <ScrollView style={styles.scrollView}>
